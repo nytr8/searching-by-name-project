@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: linear-gradient(145deg, #cdf5ff, #6a7782);
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+
+}
+
+html,
+body {
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+}
+
+#search {
+    width: 100%;
+    padding: 14px 20px;
+    border-radius: 12px;
+    border: none;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(6px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    font-size: 17px;
+    margin-bottom: 30px;
+    outline: none;
+    transition: 0.2s ease;
+}
+
+#search:focus {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+
+}
+
+.card {
+    border: 1px solid rgb(223, 220, 216);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.25)),
+        linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+    background-blend-mode: overlay;
+    backdrop-filter: blur(10px);
+    padding: 40px 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.card img {
+    width: 95px;
+    height: 95px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 14px;
+    border: 3px solid #ffffffaa;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 4px;
+    color: #222;
+}
+
+.card .role {
+    color: #555;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.card .bio {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.4;
+}
