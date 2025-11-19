@@ -55,6 +55,34 @@ let arr = [
     role: "Content Writer",
     bio: "I write technical and creative content for brands.",
   },
+  {
+    profile:
+      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "Eula",
+    role: "Content Writer",
+    bio: "I write technical and creative content for brands.",
+  },
+  {
+    profile:
+      "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?q=80&w=689&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "saby",
+    role: "Content creator",
+    bio: "I write technical and creative content for brandsi create content for brands ",
+  },
+  {
+    profile:
+      "https://images.unsplash.com/photo-1506863530036-1efeddceb993?q=80&w=1044&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "zendaya",
+    role: "product tester",
+    bio: "I test products and analyze them for better uses.",
+  },
+  {
+    profile:
+      "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "pritam",
+    role: "Content Writer",
+    bio: "I write technical and creative content for brands.",
+  },
 ];
 let inp = document.querySelector("#search");
 
